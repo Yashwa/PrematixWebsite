@@ -1,0 +1,55 @@
+
+<!-- Contact US -->
+
+body{
+    color: #585858;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    font-family: 'Merriweather',serif !important;
+}
+.glyphicon-color{
+    color: #5C8AE6;
+}
+
+.body-top{
+        padding-top: 100px !important;
+
+}
+
+
+/*contact form*/
+
+/*underline*/
+.sub-title {
+    margin-bottom: 16px;
+    border-bottom: 1px solid #D5D5D5;
+    font-weight: 300;
+    font-family: 'Merriweather',serif !important;
+}
+.sub-title span{
+    border-bottom: 1px solid #FF0000;
+    font-family: 'Merriweather',serif !important;
+}
+
+.addr address a{
+    text-decoration: none;
+}
+
+
+
+.page-content p {
+    margin-bottom: 15px;
+    font-family: 'Merriweather',serif !important;
+}
+
+label{
+    color:rgba(0,0,0,0.7);
+    font-family: 'Merriweather',serif !important;
+}
+i{
+    color:#0099CC;
+}
+/*.container{
+    overflow-x: hidden;
+    font-family: 'Merriweather',serif !important;
+}*/

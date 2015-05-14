@@ -1,0 +1,28 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 13, 2015, 1:50:23 PM
+    Author     : admin123
+*/
+
+body {
+    width: 100%;
+    border-top: solid 100px rgba(255,255,255,0.0);
+}
+
+p, h1, h2, h3, h4, h5, a, li{
+    font-family: 'Merriweather', serif !important;
+}
+
+h3{
+    color: #0088cc !important;
+    font-size: 22px;
+}
+
+.content-border{
+    border-radius: 15px;
+    border: 1px solid #CCC;
+}

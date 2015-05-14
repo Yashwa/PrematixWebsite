@@ -1,0 +1,243 @@
+/* 
+    Document   : aboutUs
+    Created on : May 7, 2015, 12:28:34 PM
+    Author     : admin
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+p, h1, h2, h3, h4, h5, a, li{
+    font-family: 'Merriweather', serif !important;
+}
+
+root { 
+    display: block;
+}
+
+body {
+    padding-top: 80px;
+    /*background:url('../img/Aboutus/about-bg.jpg')no-repeat;*/
+}
+
+
+h2,h3,h4{
+    font-weight: 500;
+}
+h4{
+    color: black !important;
+    font-weight: bold !important;
+}
+h3{
+    color:#31b0d5!important;
+    font-weight: bold;
+}
+
+h3 a{
+    color:#fff  !important;
+}
+h5{
+    font-weight: bold;
+}
+/*section1*/
+.mgnt-photo{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    text-align: center;
+   
+}
+.jumbotron{
+    background:url('../..//img/aboutUs/external/image0002.jpg')no-repeat;
+    width: 100%;
+    height:360px;
+    margin-bottom: 0px !important;
+    /*overflow: hidden;*/
+    background-position:right;
+    background-position-x: -180px;
+    background-position-y: -100px;
+}
+.content1{
+    padding: 15px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    /*background: rgb(244, 242, 242);*/
+}
+
+.content1 .prematixphoto {
+    margin: 10px;
+    float:left;
+    width:350px;
+    height:240px;
+}
+.content1 p{
+    text-align: justify;
+    font-size: 15px;
+     color: #333;
+}
+
+/*section2*/
+
+#about-section2{
+    font-family: 'Merriweather',serif !important;
+   }
+
+.content2  p a{
+    color:  #dbdbdb !important;
+    font-size: 18px;
+    text-align:left;
+}
+
+.content2 .panel p a:hover {
+    color:#fff !important;
+}
+.content2 .panel p i:hover {
+    color:#fff !important;
+}
+.client-logo {
+    margin-right: 10px;
+    margin-bottom: 0px;
+    float: left;
+    width: 180px;
+    height: 60px;
+}
+.our-client-logo{
+    margin-right: 10px;
+    margin-bottom: 0px;
+    float: left;
+    width: 150px;
+    height: 150px;
+}
+
+#sectionA{
+    margin-top: 20px;
+}
+#sectionA p a{
+    text-decoration: none;
+}
+.managment-heading{
+    height: 30px;
+    width: 100%;
+    background-color: #ccc;
+    color: #000 !important;
+    font-weight: 500;
+    padding: 5px;
+}
+
+#sectionC .mgnt-detail{
+    text-align: center;
+}
+
+#sectionE .mgnt-detail{
+    text-align: center;
+}
+
+.header{
+    height: 50px;
+    width: 100%;
+    background-color: #0969B2;
+    color: #fff ;
+    padding: 5px;
+}
+h2{
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+}
+
+
+/*hide  show div*/
+
+div.panel {
+    margin: 0px;
+    padding: 5px;
+    /*text-align: center;*/
+    background: #555;
+    border: solid 1px #fff;
+}
+
+.flip p {
+    margin: 0px !important;
+    padding: 5px;
+    background: #66afe9;
+    color: #fff !important;
+    font-size: 18px;
+    font-weight: bold;
+     border: solid 1px #fff;
+}
+.flip p a{
+    text-decoration: none;
+    
+}
+.panel p a{
+    text-decoration: none;
+}
+.flip i{
+    color: #fff;
+}
+
+.panel i{
+    color:#dbdbdb;
+    font-size: 19px;
+}
+.panel row{
+    text-align: center;
+}
+
+.contact-address address a{
+    text-decoration: none;
+    color:#fff;
+    font-weight: bold;
+}
+
+.connect-us{
+     margin: 0px;
+    padding: 5px;
+    text-align: center;
+    /*background: #009999;*/
+    border: solid 1px #ccc;
+}
+
+.contact-address{
+     margin: 0px;
+    padding: 5px;
+    text-align: left;
+    background: #555;
+     color: #fff!important;
+    border: solid 1px #ccc;
+}
+
+.connect-us  .google-color:hover{
+    color: red !important;
+}
+
+.connect-us a i{
+    color: #000;
+}
+.connect-us a i:hover{
+    color: #0969B2;
+}
+/*tabs*/
+
+#myTab li.active a {
+    color: #ff9600;
+}
+
+
+
+/*underconstruction*/
+
+#sectionC {
+    height: 500px;
+}
+#sectionE {
+    height: 500px;
+}
+
+#sectionC h3{
+    padding-top: 50px;
+   text-align: center;
+}
+
+#sectionE h3{
+    padding-top: 50px;
+   text-align: center;
+}

@@ -1,0 +1,498 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/* containing element */
+
+body{
+    border-top: solid 80px rgba(255,255,255,0.0);    
+}
+
+p, h1, h2, h3, h4, h5, a, li, th, td{
+    font-family: 'Merriweather', serif !important;
+}
+
+.center {
+    text-align: center;
+}
+
+p {
+    /*font-family: "Times New Roman";*/
+    font-size: 16px;
+}
+
+/*h1,h2,h3,h4,h5,h6 {
+    font-family: "Rockwell";
+}*/
+
+.jumb {
+    background: url(../..//img/service/external/eee.jpg) no-repeat center center fixed;    
+    height: 400px;
+    width: 100%;
+    display: table;
+    background-size: cover;
+}
+
+.jumb-bg {
+    background: rgba(0,0,0,0.3);
+    width: 100%;
+    height: 100%;
+}
+
+.imgShadow:hover {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+
+.box {
+    padding-top: 1%;
+    margin: .3%;
+    /*    min-width: 350px;
+        max-width: 350px;*/
+    min-height: 300px !important;
+    max-height: 300px !important;
+    background-color: #f5f5f5;     
+    border-top: 2.5px solid skyblue;
+}
+
+@media screen and (max-width:1280px){
+    .box{
+        min-width: 31%;
+        max-width: 31%;
+    }
+
+    .boximg{
+        min-width: 31%;
+        max-width: 31%;
+    }
+}
+
+@media screen and (max-width:992px){
+    .box{
+        min-width: 31%;
+        max-width: 31%;
+    }
+    .boximg{
+        min-width: 31%;
+        max-width: 31%;
+    }
+}
+
+@media screen and (max-width:768px) and (min-width:556px){
+    .box{
+        min-width: 350px;
+        max-width: 350px;
+    }
+    .boximg{
+        min-width: 350px;
+        max-width: 350px;
+    }
+}
+
+@media screen and (max-width:568px){
+    .box{
+        min-width: 350px;
+        max-width: 350px;
+    }
+    .boximg{
+        min-width: 350px;
+        max-width: 350px;
+    }
+}
+.box img:hover {    
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+    -moz-filter: grayscale(0);
+    -o-filter: grayscale(0);
+    -ms-filter: grayscale(0);
+}
+
+.box:hover { 
+    -moz-box-shadow: 0 0 10px #000; 
+    -webkit-box-shadow: 0 0 10px #000; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+.boximg {
+    padding-top: 1%;
+    margin: .3%;
+    /*    min-width: 350px;
+        max-width: 350px;*/
+    min-height: 300px;
+    max-height: 300px;
+    /*    background-color: #fff;     */
+    border-top: 2.5px solid skyblue;
+}
+.boximg:hover { 
+    -moz-box-shadow: 0 0 10px #000; 
+    -webkit-box-shadow: 0 0 10px #000; 
+    box-shadow: inset 0 0px 10px rgba(0,0,0,0.4);
+}
+
+.desaturate {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+/** -------------Business Process Automation-------------- */
+
+.bpa {
+    background: url(../..//img/service/external/digital-book.jpg);    
+    height: 300px;
+    width: 100%;    
+    vertical-align: middle;
+    text-align: center; 
+    background-size: 100% 100%;
+}
+
+/** -------------Software Development-------------- */
+
+.sd {
+    background: url(../..//img/service/external/softwaredevelop.jpg);
+    height: 300px;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center; 
+    background-size: 100% 100%;
+}
+
+/** -------------Web Development-------------- */
+
+.wd {
+    background: url(../..//img/service/external/web_design.jpg);    
+    height: 300px;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center; 
+    background-size: 100% 100%;
+}
+
+.mob {
+    background: url(../..//img/service/external/mobilitybanner.jpg);    
+    height: 300px;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center; 
+    background-size: 100% 100%;
+}
+
+.cloud {
+    background: url(../..//img/service/external/CloudComputing.jpg);    
+    height: 300px;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center; 
+    background-size: 100% 100%;
+}
+
+.outsource {
+    background: url(../..//img/service/external/outsource.jpg);    
+    height: 300px;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center; 
+    background-size: 100% 100%;
+}
+
+.sys {
+    background: url(../..//img/service/external/systemservice.jpg);    
+    height: 300px;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center; 
+    background-size: 100% 100%;
+}
+
+.tech {
+    background: url(../..//img/service/external/technicalservice.jpg);    
+    height: 300px;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center; 
+    background-size: 100% 100%;
+}
+
+/** ------------- Footer Social Link -------------- */
+
+/*#social:hover {
+    -webkit-transform:scale(1.1); 
+    -moz-transform:scale(1.1); 
+    -o-transform:scale(1.1); 
+}
+#social {
+    -webkit-transform:scale(0.8);
+     Browser Variations: 
+    -moz-transform:scale(0.8);
+    -o-transform:scale(0.8);
+    -webkit-transition-duration: 0.05s; 
+    -moz-transition-duration: 0.05s;
+    -o-transition-duration: 0.05s;
+}           
+*      Only Needed in Multi-Coloured Variation     
+.social-fb:hover {
+    color: darkorange;
+}
+.social-tw:hover {
+    color: darkorange;
+}
+.social-gp:hover {
+    color: darkorange;
+}
+.social-li:hover {
+    color: darkorange ;
+}
+
+
+.foo ul { 
+    margin: 0; 
+    padding: 0;
+    color: #C7C2C2;  Base text color for the menu     
+}
+.foo ul li {
+    float: left; 
+    list-style: none;  Makes the list items go horizontally in lieu of default vertical display  }
+.foo ul li:after {
+    content: "|";  Or go Facebook style and use "·" (the interpunct character) for separators 
+    color: #C7C2C2;  You may want to make the separators a bit more subtle than the base text color 
+}
+.foo ul li:last-child:after { 
+    content: "";  No separator for the last item in the list  
+}
+.foo ul li a {
+    margin: 0 8px;  Set margins around the links 
+    color: #ffffff;  Text colors for the links 
+}*/
+
+
+/**         Rotation menu       */
+
+.ih-item {
+    position: relative;
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+}
+.ih-item, .ih-item * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.ih-item a {
+    color: #fff;
+}
+.ih-item a:hover {
+    text-decoration: underline;
+}
+.ih-item img {
+    width: 100%;
+    height: 100%;
+    margin: auto auto;
+}
+
+.ih-item.circle {
+    position: relative;
+    width: 93px;
+    height: 93px;
+    border-radius: 50%;
+    margin: auto auto;
+}
+.ih-item.circle .img {
+    position: relative;
+    width: 93px;
+    height: 93px;
+    border-radius: 50%;
+}
+.ih-item.circle .img:before {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 3px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.3);
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+}
+.ih-item.circle .img img {
+    border-radius: 50%;
+}
+.ih-item.circle .info {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.ih-item.circle.effect15 .img {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: scale(1) rotate(0);
+    -moz-transform: scale(1) rotate(0);
+    -ms-transform: scale(1) rotate(0);
+    -o-transform: scale(1) rotate(0);
+    transform: scale(1) rotate(0);
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+}
+.ih-item.circle.effect15.colored .info {
+    background: #1a4a72;
+}
+.ih-item.circle.effect15 .info {
+    background: #333333;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: scale(0.5) rotate(-720deg);
+    -moz-transform: scale(0.5) rotate(-720deg);
+    -ms-transform: scale(0.5) rotate(-720deg);
+    -o-transform: scale(0.5) rotate(-720deg);
+    transform: scale(0.5) rotate(-720deg);
+    -webkit-transition: all 0.35s ease-in-out 0.3s;
+    -moz-transition: all 0.35s ease-in-out 0.3s;
+    transition: all 0.35s ease-in-out 0.3s;
+}
+.ih-item.circle.effect15 .info h3 {
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin: 0 30px;
+    padding: 55px 0 0 0;
+    height: 110px;
+    text-shadow: 0 0 1px white, 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+.ih-item.circle.effect15 .info p {
+    color: #bbb;
+    padding: 10px 5px;
+    font-style: italic;
+    margin: 0 30px;
+    font-size: 12px;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+.ih-item.circle.effect15 a:hover .img {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: scale(0.5) rotate(720deg);
+    -moz-transform: scale(0.5) rotate(720deg);
+    -ms-transform: scale(0.5) rotate(720deg);
+    -o-transform: scale(0.5) rotate(720deg);
+    transform: scale(0.5) rotate(720deg);
+}
+.ih-item.circle.effect15 a:hover .info {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: scale(1) rotate(0deg);
+    -moz-transform: scale(1) rotate(0deg);
+    -ms-transform: scale(1) rotate(0deg);
+    -o-transform: scale(1) rotate(0);
+    transform: scale(1) rotate(0deg);
+}
+
+.ih-item.square {
+    position: relative;
+    /*  width: 350px;
+      height: 300px;*/
+    border: 8px solid #fff;
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+.ih-item.square .info {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.ih-item.square.effect5.colored .info {
+    background: #1a4a72;
+}
+.ih-item.square.effect5.colored .info h3 {
+    background: rgba(12, 34, 52, 0.6);
+}
+.ih-item.square.effect5 .img {
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+}
+
+.ih-item.square.effect5 .info {
+    background: #333333;
+    opacity: 0;
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+}
+.ih-item.square.effect5 .info h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    background: #111111;
+    margin: 30px 0 0 0;
+}
+.ih-item.square.effect5 .info h3 {
+    font-style: italic;
+    font-size: 18px;
+    position: relative;
+    color: #fff;
+    padding: 20px 20px 20px;
+    text-align: center;
+    background: none !important;
+}
+.ih-item.square.effect5 a:hover .img {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition-delay: 0;
+    -moz-transition-delay: 0;
+    transition-delay: 0;
+}
+.ih-item.square.effect5 a:hover .info {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: scale(1) rotate(0deg);
+    -moz-transform: scale(1) rotate(0deg);
+    -ms-transform: scale(1) rotate(0deg);
+    -o-transform: scale(1) rotate(0deg);
+    transform: scale(1) rotate(0deg);
+    -webkit-transition-delay: 0.3s;
+    -moz-transition-delay: 0.3s;
+    transition-delay: 0.3s;
+}
+
+/*.ih-item.square.effect5.left_to_right .info {
+  -webkit-transform: scale(0) rotate(-180deg);
+  -moz-transform: scale(0) rotate(-180deg);
+  -ms-transform: scale(0) rotate(-180deg);
+  -o-transform: scale(0) rotate(-180deg);
+  transform: scale(0) rotate(-180deg);
+}*/
+
+.ih-item.square.effect5.right_to_left .info {
+    -webkit-transform: scale(0) rotate(180deg);
+    -moz-transform: scale(0) rotate(180deg);
+    -ms-transform: scale(0) rotate(180deg);
+    -o-transform: scale(0) rotate(180deg);
+    transform: scale(0) rotate(180deg);
+}
